@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org/",
+  "@type": ["MovieDB", "movies","title","plot"],
+  "name": "",
+  "image": "https://i.ibb.co/Q9c39gS/ayla.jpg",
+  "description": "",
+  "mpn": "925872",
+  "brand": {
+    "@type": "Origintrail Community",
+    "name": "ACME"
+  },
+  "Rate": {
+    "@type": "Number",
+    "value": 0
+  },
+  "Produced": {
+    "@type": "Number",
+    "value": 0
+  },
+  "attributes": {
+    "@type": "details"
+  }
+}
