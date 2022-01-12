@@ -55,5 +55,5 @@ const publish = async () => {
     }
 }
 
-const coins = await run(URL)
-write(coins).then(() => publish()).then(() => remove_all())
+const movies = await run(URL)
+write(movies).then(() => publish()).then(() => remove_all())
