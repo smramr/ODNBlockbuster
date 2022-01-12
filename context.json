@@ -2,12 +2,12 @@
   "@context": "https://schema.org/",
   "@type": ["MovieDB", "movies","title","plot"],
   "name": "",
-  "image": "https://i.ibb.co/Q9c39gS/ayla.jpg",
+  "image": "",
   "description": "",
   "mpn": "925872",
   "brand": {
     "@type": "Origintrail Community",
-    "name": "ACME"
+    "name": "@ethsplainer"
   },
   "Rate": {
     "@type": "Number",
