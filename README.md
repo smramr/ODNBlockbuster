@@ -4,7 +4,7 @@ Disclaimer: 99.9% of the code belongs to Yolan Maldonado https://github.com/Y0la
 
 
 
-This scripts collects the title, plot, rating and production date of a random movie and uploads it to the DKG.
+This script collects the title, plot, rating and production date of a random movie and uploads it to the DKG.
 
 
 Installation:
