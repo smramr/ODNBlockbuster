@@ -9,7 +9,7 @@ This scripts collects the title, plot, rating and production date of a random mo
 
 Installation:
 
-sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i
+sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && chmod +x publish.sh 
 
 Replace 1234 with your own API key. You can get one here for free: https://www.omdbapi.com/apikey.aspx
 
@@ -20,4 +20,7 @@ Run:
 
 nohup ./publish.sh &
 
+To view logs:
+
+tail -f nohup.out (press CTRL+c to exit logs)
 
