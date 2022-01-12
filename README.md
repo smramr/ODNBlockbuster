@@ -1,4 +1,5 @@
-Disclaimer: 99.9% of the code belongs to Yolan Maldonado https://github.com/Y0lan. I have changed it up a (tiny) bit to upload OMDb API data.
+Disclaimer: 99.9% of the code belongs to Yolan Maldonado https://github.com/Y0lan. Use his odn-smart-publisher on your v6 test net nodes.
+I have changed the code a (tiny) bit to upload OMDb API data.
 
 
 
