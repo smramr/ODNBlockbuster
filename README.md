@@ -12,6 +12,7 @@ Installation:
 sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i
 
 Replace 1234 with your own API key. You can get one here for free: https://www.omdbapi.com/apikey.aspx
+
 sed -i 's/MYKEY/1234/' ~/ODN-Blockbuster/app.js
 
 
