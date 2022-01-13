@@ -28,9 +28,10 @@ const write = async (movies) => {
 	    data["image"] = movies["Poster"]
 	    data["description"] = movies["Plot"]
 	    data["Rate"]["Value"] = movies["Rated"]
+            data["Rating"]["Value"] = movies["Ratings"]
 	    data["Produced"]["Value"] = movies["Year"]
 
-            await fs.writeJson('./data/' + 'Rate' +  '.json', data)
+            await fs.writeJson('./data/' + 'Title' +  '.json', data)
         
     } catch
         (error) {

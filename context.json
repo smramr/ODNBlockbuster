@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org/",
-  "@type": ["MovieDB", "movies","title","plot"],
+  "@type": ["MovieDB","Title","Rate","Plot","Rating","Produced"],
   "name": "",
   "image": "",
   "description": "",
@@ -11,11 +11,15 @@
   },
   "Rate": {
     "@type": "Number",
-    "value": 0
+    "value": ""
   },
   "Produced": {
     "@type": "Number",
-    "value": 0
+    "value": ""
+  },
+  "Rating": {
+    "@type": "Number",
+    "value": ""
   },
   "attributes": {
     "@type": "details"
