@@ -8,6 +8,7 @@ I have changed the code a (tiny) bit to upload OMDb API data.
 This script collects the title, plot, rating and production date of a random movie and uploads it to the DKG.
 
 
+
 Installation:
 
 sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && chmod +x publish.sh 
