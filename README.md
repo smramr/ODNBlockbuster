@@ -2,7 +2,7 @@
 </br>
 </br>
 </br>
-This script collects meta data of a random movie and uploads it to the DKG.
+This script collects metadata of a random movie and uploads it to the DKG.
 ```
 Trying to publish: 
 {"@context":"https://schema.org/","@type":["MovieDB","Title","Rate","Plot","Rating","Produced"],"name":"The Man Who Knew Too Much","image":"https://m.media-amazon.com/images/M/MV5BNjQ2OWFhMjItYmFmNC00OGQzLWE1ZTMtZGQwZDM3YWUzMDgxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg","description":"An American doctor and his wife, a former singing star, witness a murder while vacationing in Morocco, and are drawn into a twisting plot of international intrigue when their young son is kidnapped.","mpn":"925872","brand":{"@type":"Origintrail Community","name":"@ethsplainer"},"Rate":{"@type":"Number","value":"","Value":"PG"},"Produced":{"@type":"Number","value":"","Value":"1956"},"Rating":{"@type":"Number","value":"","Value":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"87%"},{"Source":"Metacritic","Value":"76/100"}]},"attributes":{"@type":"details"}}
