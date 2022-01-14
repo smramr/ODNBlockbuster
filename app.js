@@ -24,13 +24,12 @@ const write = async (movies) => {
 
     try {
             const data = await fs.readJson('./context.json')
-            data["Title"] = movies["Title"]
-            data["Poster"] = movies["Poster"]
-            data["Plot"] = movies["Plot"]
-            data["Rating"] = movies["Ratings"]
-            data["Produced"] = movies["Year"]
-            data["Director"]["name"]  = movies["Director"]
-            data["Genre"] = movies["Genre"]
+            data["name"] = movies["Title"]
+            data["description"] = movies["Plot"]
+            data["aggregateRating"]["bestRating"] = movies["Ratings"]
+            data["director"]["name"]  = movies["Director"]
+            data["date"]["datePublished"] = movies["Year"]
+            data["actor"]["name"] = movies["Actors"]
 
             await fs.writeJson('./data/' + 'Title' +  '.json', data)
 
@@ -48,7 +47,7 @@ const publish = async () => {
         const options = {
             filepath: './data/' + file,
             assets: ['0x123456789123456789123456789'],
-            keywords: ['Movie title ' + movies["Title"], 'Written by ' + movies["Director"], 'Produced in ' + movies["Year"] ],
+            keywords: [ movies["Actors"], movies["Title"], movies["Director"] ],
             visibility: true
         }
         console.log("Trying to publish: \n" + JSON.stringify(content))

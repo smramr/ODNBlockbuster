@@ -1,15 +1,22 @@
 {
-  "@context": "https://schema.org/",
+  "@context": "https://schema.org",
   "@type": "Movie",
-  "Title": "",
-  "Director":
-    {
-       "@type": "Person",
-       "name": ""
+  "actor": {
+      "@type": "Person",
+      "name": ""
     },
-  "Genre": "",
-  "Poster": "",
-  "Plot": "",
-  "Produced": "",
-  "Rating": ""
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": ""
+  },
+  "description": "",
+  "date": {
+    "@type": "Date",
+    "datePublished": ""
+  },
+  "director": {
+    "@type": "Person",
+    "name": ""
+  },
+  "name": ""
 }
