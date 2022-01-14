@@ -3,9 +3,13 @@
 </br>
 </br>
 This script collects metadata of a random movie and uploads it to the DKG.
+
+**Example data**
 ```
-{"@context":"https://schema.org","@type":"Movie","actor":{"@type":"Person","name":"Jack Nicholson, Helen Hunt, Greg Kinnear"},"aggregateRating":{"@type":"AggregateRating","bestRating":[{"Source":"Internet Movie Database","Value":"7.7/10"},{"Source":"Rotten Tomatoes","Value":"85%"},{"Source":"Metacritic","Value":"67/100"}]},"description":"A single mother and waitress, a misanthropic author, and a gay artist form an unlikely friendship after the artist is assaulted in a robbery.","date":{"@type":"Date","datePublished":"1997"},"director":{"@type":"Person","name":"James L. Brooks"},"name":"As Good as It Gets"}
-``` 
+{"@context":"https://schema.org","@type":"Movie","actor":{"@type":"Person","name":"Ram Charan, Genelia D'Souza, Shazahn Padamsee"},"countryOfOrigin":"India","datePublished":"26 Nov 2010","duration":"162 min","thumbnailUrl":"https://m.media-amazon.com/images/M/MV5BM2ZkZGIwZDAtNGU1ZS00NTlkLThjYjYtMjU5MzQzNDQyMTBmXkEyXkFqcGdeQXVyODA2ODM3NDQ@._V1_SX300.jpg","aggregateRating":{"@type":"AggregateRating","ratingValue":"6.7"},"description":"A man, who doesn't believe that love can last a lifetime, pursues an exuberant romantic, but their clashing ideologies keep them apart.","dateCreated":"2010","director":{"@type":"Person","name":"Bommarillu Baskar"},"name":"Orange","award":"3 nominations"}
+```
+![image](https://user-images.githubusercontent.com/97244524/149531994-32c10675-cae3-4f15-a1cc-418eaea74c60.png)
+
 **Installation:**
 ```
 sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && chmod +x publish.sh 
@@ -19,5 +23,6 @@ sed -i 's/MYKEY/1234/' ~/ODNBlockbuster/app.js
 ```
 nohup ./publish.sh &
 ```
+
 
 
