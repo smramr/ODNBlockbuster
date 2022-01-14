@@ -1,27 +1,15 @@
 {
   "@context": "https://schema.org/",
-  "@type": ["MovieDB","Title","Rate","Plot","Rating","Produced"],
-  "name": "",
-  "image": "",
-  "description": "",
-  "mpn": "925872",
-  "brand": {
-    "@type": "Origintrail Community",
-    "name": "@ethsplainer"
-  },
-  "Rate": {
-    "@type": "Number",
-    "value": ""
-  },
-  "Produced": {
-    "@type": "Number",
-    "value": ""
-  },
-  "Rating": {
-    "@type": "Number",
-    "value": ""
-  },
-  "attributes": {
-    "@type": "details"
-  }
+  "@type": "Movie",
+  "Title": "",
+  "Director":
+    {
+       "@type": "Person",
+       "name": ""
+    },
+  "Genre": "",
+  "Poster": "",
+  "Plot": "",
+  "Produced": "",
+  "Rating": ""
 }
