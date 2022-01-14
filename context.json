@@ -2,17 +2,27 @@
   "@context": "https://schema.org",
   "@type": "Movie",
   "actor": {
-      "@type": "Person",
-      "name": ""
+    "@type": "Person",
+    "name": ""
     },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "bestRating": ""
+  "countryOfOrigin": {
+    "@type": "Country"
+  },
+  "datePublished": {
+    "@type": "Date"
+  },
+  "duration": {
+    "@type": "Duration"
+  },
+  "thumbnailUrl": {
+    "@type": "URL"
+  },
+    "aggregateRating": {
+    "@type": "AggregateRating"
   },
   "description": "",
-  "date": {
-    "@type": "Date",
-    "datePublished": ""
+  "dateCreated": {
+    "@type": "Date"
   },
   "director": {
     "@type": "Person",

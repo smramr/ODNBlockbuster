@@ -26,9 +26,14 @@ const write = async (movies) => {
             const data = await fs.readJson('./context.json')
             data["name"] = movies["Title"]
             data["description"] = movies["Plot"]
-            data["aggregateRating"]["bestRating"] = movies["Ratings"]
             data["director"]["name"]  = movies["Director"]
-            data["date"]["datePublished"] = movies["Year"]
+            data["aggregateRating"]["ratingValue"] = movies["imdbRating"]
+            data["thumbnailUrl"] = movies["Poster"]
+            data["award"] = movies["Awards"]
+            data["duration"] = movies["Runtime"]
+            data["dateCreated"] = movies["Year"]
+            data["datePublished"] = movies["Released"]
+            data["countryOfOrigin"] = movies["Country"]
             data["actor"]["name"] = movies["Actors"]
 
             await fs.writeJson('./data/' + 'Title' +  '.json', data)
