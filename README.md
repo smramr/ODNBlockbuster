@@ -18,11 +18,11 @@ sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockb
 **Change default API key** </br>
 Replace 1234 with your own API key. You can get one here for free: https://www.omdbapi.com/apikey.aspx
 ```
-sed -i 's/MYKEY/1234/' ~/ODNBlockbuster/app.js
+sed -i 's/MYKEY/1234/' app.js
 ```
 **Executing the script**
 ```
-nohup ~/ODNBlockbuster/publish.sh &
+nohup ./publish.sh &
 ```
 
 
