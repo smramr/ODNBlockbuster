@@ -1,4 +1,5 @@
 **Disclaimer: I have modified Yolan Maldonado's https://github.com/Y0lan odn-smart-publisher to use OMDb's API.**
+**Work in progress. Feedback is welcomed! @ethsplainer**
 </br>
 </br>
 </br>
