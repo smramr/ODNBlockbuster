@@ -22,7 +22,7 @@ sed -i 's/MYKEY/1234/' ~/ODNBlockbuster/app.js
 ```
 **Executing the script**
 ```
-nohup ./publish.sh &
+nohup ~/ODNBlockbuster/publish.sh &
 ```
 
 
