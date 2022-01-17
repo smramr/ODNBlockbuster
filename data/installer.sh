@@ -76,3 +76,9 @@ else
     echo $OUTPUT
     exit 1
 fi
+
+echo "alias blockbuster-start='systemctl start blockbuster'" >> /root/.bashrc
+echo "alias blockbuster-stop='systemctl stop blockbuster'" >> /root/.bashrc
+echo "alias blockbuster-logs='systemctl start blockbuster'" >> /root/.bashrc
+
+echo "${N1}Installation complete!"
