@@ -27,7 +27,7 @@ echo -n "Verifying otnode running: "
 
 OUTPUT=$(ps ax | grep -e '/usr/bin/node /root/ot-node/index.js' | wc -l >/dev/null 2>&1)
 
-if [[ $OUTPUT -eq 0 ]]; then
+if [[ $OUTPUT -eq 1 ]]; then
     echo -e "${RED}FAILED${NC}"
     echo "The node is not running."
     echo $OUTPUT
