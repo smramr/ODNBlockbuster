@@ -1,0 +1,15 @@
+#/lib/systemd/system/blockbuster.service
+
+[Unit]
+Description=ODNBlockbuster publisher
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/ODNBlockbuster/
+ExecStart=/root/ODNBlockbuster/publish.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
