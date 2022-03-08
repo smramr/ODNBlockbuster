@@ -15,11 +15,13 @@
     "axios": "^0.24.0"
   },
   "dependencies": {
-    "dkg-client": "^6.0.0-beta.1.5",
+    "dkg-client": "^6.0.0-beta.1.16",
     "fs-extra": "^10.0.0",
+    "i": "^0.3.7",
     "inversify": "^4.13.0",
     "jsonld": "^1.8.1",
     "node-jsonld": "^1.0.0",
+    "npm": "^8.5.3",
     "random-words": "^1.1.1",
     "reflect-metadata": "^0.1.13"
   }
