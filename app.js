@@ -53,7 +53,7 @@ const publish = async () => {
             filepath: './data/' + file,
             assets: ['0x123456789123456789123456789'],
             keywords: [ movies["Actors"], movies["Title"], movies["Director"] ],
-            visibility: true
+            visibility: "public"
         }
         console.log("Trying to publish: \n" + JSON.stringify(content))
         await client.publish(options).then((result) => console.log("Successfully published : \n" + JSON.stringify(result)))
