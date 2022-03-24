@@ -25,5 +25,12 @@ sed -i 's/MYKEY/1234/' app.js
 nohup ./publish.sh &
 ```
 
+**Reading logs***
+```
+journalctl -u blockbuster --output cat -fn 100
+```
 
-
+**Service control**
+```
+systemctl status/start/stop blockbuster
+```
