@@ -20,16 +20,10 @@ Replace 1234 with your own API key. You can get one here for free: https://www.o
 ```
 sed -i 's/MYKEY/1234/' app.js
 ```
-**Executing the script**
-```
-nohup ./publish.sh &
-```
-
 **Reading logs***
 ```
 journalctl -u blockbuster --output cat -fn 100
 ```
-
 **Service control**
 ```
 systemctl status/start/stop blockbuster
