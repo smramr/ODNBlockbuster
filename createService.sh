@@ -16,6 +16,12 @@ OUTPUT=$(cp $BB_DIR/service/blockbuster.service /lib/systemd/system/ 2>&1)
         echo -e "${GREEN}SUCCESS${NC}"
     fi
 
+    echo -n "Please enter your API key: "
+    	read APIKEY
+
+    echo -n "Applying your key: $APIKEY "
+    sed -i "s/MYKEY/$APIKEY/" ./app.js
+
     systemctl daemon-reload
 
     echo -n "Enable Blockbuster service on boot: "
