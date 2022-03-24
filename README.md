@@ -20,5 +20,5 @@ journalctl -u blockbuster --output cat -fn 100
 ```
 **Service control**
 ```
-systemctl status/start/stop blockbuster
+systemctl {status}/{start}/{stop} blockbuster
 ```
