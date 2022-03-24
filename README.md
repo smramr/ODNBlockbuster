@@ -44,7 +44,7 @@ This script collects metadata of a random movie and uploads it to the DKG.
 ```
 sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && ./Installer.sh
 ```
-**Reading logs***
+**Reading logs**
 ```
 journalctl -u blockbuster --output cat -fn 100
 ```
