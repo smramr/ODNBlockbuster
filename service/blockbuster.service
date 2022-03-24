@@ -1,0 +1,13 @@
+[Unit]
+Description=ODNBlockbuster
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/ODNBlockbuster/
+ExecStart=/root/ODNBlockbuster/publish.sh
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

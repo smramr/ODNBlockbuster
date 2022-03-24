@@ -51,6 +51,7 @@ const publish = async () => {
         const content = await fs.readJson('./data/' + file)
         const options = {
             filepath: './data/' + file,
+	    method: "provision",
             assets: ['0x123456789123456789123456789'],
             keywords: [ movies["Actors"], movies["Title"], movies["Director"] ],
             visibility: "public"
