@@ -12,13 +12,10 @@ This script collects metadata of a random movie and uploads it to the DKG.
 ![image](https://user-images.githubusercontent.com/97244524/149531994-32c10675-cae3-4f15-a1cc-418eaea74c60.png)
 
 **Installation:**
+
+***Make sure you have a OMDB API key. Get one here: https://www.omdbapi.com/apikey.aspx***
 ```
-sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && ./createService.sh 
-```
-**Change default API key** </br>
-Replace 1234 with your own API key. You can get one here for free: https://www.omdbapi.com/apikey.aspx
-```
-sed -i 's/MYKEY/1234/' app.js
+sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && ./createService.sh
 ```
 **Reading logs***
 ```
