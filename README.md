@@ -42,7 +42,7 @@ This script collects metadata of a random movie and uploads it to the DKG.
 
 ***Make sure you have an OMDB API key. Get one here: https://www.omdbapi.com/apikey.aspx***
 ```
-cd ~/root && sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && ./Installer.sh
+cd ~ && sudo git clone https://github.com/ethsplainer/ODNBlockbuster.git && cd ODNBlockbuster && npm i && ./Installer.sh
 ```
 **Reading logs**
 ```
