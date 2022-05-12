@@ -1,4 +1,3 @@
-**Work in progress. Feedback is welcomed! @ethsplainer**
 </br>
 
 This script collects metadata of a random movie and uploads it to the DKG.
